@@ -32,7 +32,7 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="562" max="32767" attributes="0"/>
+              <EmptySpace pref="528" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -54,15 +54,15 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="btnPeriodo" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnCurso" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnAsignacionCurso" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnAlumnos" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnAsignacionAlumnos" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnPlanificacion" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnExportarNotas" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnExportarAlumnos" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="btnPeriodo" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnAsignacionCurso" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnAlumnos" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnAsignacionAlumnos" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnPlanificacion" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnExportarNotas" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnExportarAlumnos" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnCurso" alignment="0" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace pref="36" max="32767" attributes="0"/>
               </Group>
@@ -95,7 +95,7 @@
       <SubComponents>
         <Component class="javax.swing.JToggleButton" name="btnPeriodo">
           <Properties>
-            <Property name="text" type="java.lang.String" value="jToggleButton1"/>
+            <Property name="text" type="java.lang.String" value="Periodo"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPeriodoActionPerformed"/>
@@ -103,37 +103,37 @@
         </Component>
         <Component class="javax.swing.JToggleButton" name="btnCurso">
           <Properties>
-            <Property name="text" type="java.lang.String" value="jToggleButton1"/>
+            <Property name="text" type="java.lang.String" value="Cursos"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JToggleButton" name="btnAsignacionCurso">
           <Properties>
-            <Property name="text" type="java.lang.String" value="jToggleButton1"/>
+            <Property name="text" type="java.lang.String" value="Asignaci&#xf3;n Cursos"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JToggleButton" name="btnAlumnos">
           <Properties>
-            <Property name="text" type="java.lang.String" value="jToggleButton1"/>
+            <Property name="text" type="java.lang.String" value="Alumnos"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JToggleButton" name="btnAsignacionAlumnos">
           <Properties>
-            <Property name="text" type="java.lang.String" value="jToggleButton1"/>
+            <Property name="text" type="java.lang.String" value="Asignaci&#xf3;n Alumnos"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JToggleButton" name="btnPlanificacion">
           <Properties>
-            <Property name="text" type="java.lang.String" value="jToggleButton1"/>
+            <Property name="text" type="java.lang.String" value="Planificaci&#xf3;n"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JToggleButton" name="btnExportarNotas">
           <Properties>
-            <Property name="text" type="java.lang.String" value="jToggleButton1"/>
+            <Property name="text" type="java.lang.String" value="Exportar Notas"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JToggleButton" name="btnExportarAlumnos">
           <Properties>
-            <Property name="text" type="java.lang.String" value="jToggleButton1"/>
+            <Property name="text" type="java.lang.String" value="Exportar Alumnos"/>
           </Properties>
         </Component>
       </SubComponents>

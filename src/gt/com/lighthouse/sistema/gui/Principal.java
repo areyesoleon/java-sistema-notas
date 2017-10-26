@@ -41,26 +41,26 @@ public class Principal extends javax.swing.JFrame {
         setBackground(new java.awt.Color(51, 102, 255));
         setMinimumSize(new java.awt.Dimension(2147483647, 2147483647));
 
-        btnPeriodo.setText("jToggleButton1");
+        btnPeriodo.setText("Periodo");
         btnPeriodo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPeriodoActionPerformed(evt);
             }
         });
 
-        btnCurso.setText("jToggleButton1");
+        btnCurso.setText("Cursos");
 
-        btnAsignacionCurso.setText("jToggleButton1");
+        btnAsignacionCurso.setText("Asignación Cursos");
 
-        btnAlumnos.setText("jToggleButton1");
+        btnAlumnos.setText("Alumnos");
 
-        btnAsignacionAlumnos.setText("jToggleButton1");
+        btnAsignacionAlumnos.setText("Asignación Alumnos");
 
-        btnPlanificacion.setText("jToggleButton1");
+        btnPlanificacion.setText("Planificación");
 
-        btnExportarNotas.setText("jToggleButton1");
+        btnExportarNotas.setText("Exportar Notas");
 
-        btnExportarAlumnos.setText("jToggleButton1");
+        btnExportarAlumnos.setText("Exportar Alumnos");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -68,15 +68,15 @@ public class Principal extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnPeriodo)
-                    .addComponent(btnCurso)
-                    .addComponent(btnAsignacionCurso)
-                    .addComponent(btnAlumnos)
-                    .addComponent(btnAsignacionAlumnos)
-                    .addComponent(btnPlanificacion)
-                    .addComponent(btnExportarNotas)
-                    .addComponent(btnExportarAlumnos))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(btnPeriodo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnAsignacionCurso, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnAlumnos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnAsignacionAlumnos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnPlanificacion, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnExportarNotas, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnExportarAlumnos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnCurso, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(36, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -108,7 +108,7 @@ public class Principal extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(562, Short.MAX_VALUE))
+                .addContainerGap(528, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
