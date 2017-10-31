@@ -39,6 +39,9 @@ public class CursosFrame extends javax.swing.JInternalFrame {
         btnEliminar = new javax.swing.JButton();
         btnAgregar = new javax.swing.JButton();
 
+        setTitle("Cursos");
+        setMinimumSize(new java.awt.Dimension(846, 462));
+
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 36)); // NOI18N
         jLabel1.setText("Cursos");
         jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
